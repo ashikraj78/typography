@@ -336,6 +336,7 @@ body{
 	background: white;
 	padding: 30px;
 	display: flex;
+	margin-top: 50px;
 }
 .form{
 	display: flex;
@@ -343,13 +344,40 @@ body{
 	justify-content: center;
 	flex-direction:column;
 	width: 100%;
-	
+}
+input{
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.btn{
+	display: flex;
+	padding-top: 20px;
+}
+.btn a{
+	text-decoration: none;
 }
 
 .send{
 	display: inline-block;
 	background: red;
-	padding: 20px;
+	padding: 10px 30px;
+	color: white;
+	font-weight: 900;
+}
+.reset{
+	margin-left: 10px;
+	background:white;
+	padding: 10px 30px;
+	border: 1px solid grey;
+	color: black;
+	font-weight: 900;
+}
+.socialcontact{
+	margin-left: 40px;
+}
+h4{
+	padding-left: 20px;
 }
 .sec5icon{
 	height: 30px;
@@ -375,10 +403,19 @@ body{
 	background: rgb(236,236,236);
 	padding-top: 50px;
 	padding-bottom: 100px;
+	color: grey;
 }
 
 .footertag{
 	display: flex;
 	justify-content: center;
 	padding-top: 20px;
+}
+.footer a{
+	text-decoration: none;
+	padding: 0 10px;
+	color: grey;
+}
+.fta{
+	border-right: 1px solid grey;
 }
